@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-17T23:46:47 IST" name="Suite" finished-at="2022-10-17T23:49:36 IST" duration-ms="168605">
+    <groups>
+    </groups>
+    <test started-at="2022-10-17T23:46:47 IST" name="Test" finished-at="2022-10-17T23:47:44 IST" duration-ms="56833">
+      <class name="test.LoginCustomerLogout">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.LoginCustomerLogout@66f57048]" started-at="2022-10-17T23:46:47 IST" name="setup" finished-at="2022-10-17T23:47:00 IST" duration-ms="13014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:test.LoginCustomerLogout@66f57048]" started-at="2022-10-17T23:47:00 IST" name="login" finished-at="2022-10-17T23:47:44 IST" duration-ms="43388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.LoginCustomerLogout@66f57048]" started-at="2022-10-17T23:47:44 IST" name="teardown" finished-at="2022-10-17T23:47:44 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.LoginCustomerLogout -->
+    </test> <!-- Test -->
+    <test started-at="2022-10-17T23:47:44 IST" name="Testfirefox" finished-at="2022-10-17T23:48:44 IST" duration-ms="59633">
+      <class name="test.LoginCustomerLogout">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.LoginCustomerLogout@5e600dd5]" started-at="2022-10-17T23:47:44 IST" name="setup" finished-at="2022-10-17T23:48:04 IST" duration-ms="19558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:test.LoginCustomerLogout@5e600dd5]" started-at="2022-10-17T23:48:04 IST" name="login" finished-at="2022-10-17T23:48:42 IST" duration-ms="38871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.LoginCustomerLogout@5e600dd5]" started-at="2022-10-17T23:48:42 IST" name="teardown" finished-at="2022-10-17T23:48:44 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.LoginCustomerLogout -->
+    </test> <!-- Testfirefox -->
+    <test started-at="2022-10-17T23:48:44 IST" name="Testedge" finished-at="2022-10-17T23:49:36 IST" duration-ms="52109">
+      <class name="test.LoginCustomerLogout">
+        <test-method is-config="true" signature="executionstart()[pri:0, instance:test.LoginCustomerLogout@4d5650ae]" started-at="2022-10-17T23:46:47 IST" name="executionstart" finished-at="2022-10-17T23:46:47 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executionstart -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.LoginCustomerLogout@4d5650ae]" started-at="2022-10-17T23:48:44 IST" name="setup" finished-at="2022-10-17T23:48:56 IST" duration-ms="11869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:test.LoginCustomerLogout@4d5650ae]" started-at="2022-10-17T23:48:56 IST" name="login" finished-at="2022-10-17T23:49:35 IST" duration-ms="39899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.LoginCustomerLogout@4d5650ae]" started-at="2022-10-17T23:49:35 IST" name="teardown" finished-at="2022-10-17T23:49:36 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="executioncomplete()[pri:0, instance:test.LoginCustomerLogout@4d5650ae]" started-at="2022-10-17T23:49:36 IST" name="executioncomplete" finished-at="2022-10-17T23:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executioncomplete -->
+      </class> <!-- test.LoginCustomerLogout -->
+    </test> <!-- Testedge -->
+  </suite> <!-- Suite -->
+</testng-results>
